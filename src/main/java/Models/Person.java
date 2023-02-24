@@ -15,4 +15,8 @@ public class Person {
         this.Name=name;
         this.Age=age;
     }
+    @Override
+    public String toString(){
+        return "\n\t\tId - "+Id+"\n\t\tName - "+Name+"\n\t\tAge -  "+Age+" years";
+    }
 }
